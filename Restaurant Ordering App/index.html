@@ -1,0 +1,26 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <nav id="jimmysDiner">
+            <img src="images/jimmysDiner.jpg" alt="Jimmy's Diner Header" class="nav-img">
+        </nav>
+        <main id="display"></main>
+        <div class="orderList" id="orderList"></div>
+        <!-- Modal Background / Overlay -->
+        <div class="modal" id="paymentModal">
+            <div class="modal-inner">
+                <h2>Enter card details</h2>
+                <form id="paymentForm">
+                    <input type="text" placeholder="Enter your name" id="usersName" required />
+                    <input type="text" placeholder="Enter card number" required />
+                    <input type="text" placeholder="Enter CVV" required />
+                    <button type="submit" class="pay-btn">Pay</button>
+                </form>
+            </div>
+        </div>
+	    <script src="index.js" type="module"></script>
+    </body>
+</html>
+
